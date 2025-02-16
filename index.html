@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก</title>
+    <style>
+    
+        .box{
+          grid-area: box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          background-color: aqua;
+        }
+        .container {
+    display: grid;
+    grid-template-areas:
+        "box box"
+        "box2 box1"
+        "box2 box1"
+        ;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+        }Í
+        .box1{
+            grid-row: box1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+        }
+        .box2{
+            grid-row: box2;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+        }
+        .home-button {
+  background-color: #4CAF50; /* สีเขียว */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.home-button:hover {
+  background-color: #3e8e41;
+}
+
+.home-button1 {
+  background-color: red; /* สีเขียว */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.home-button1:hover {
+  background-color: #db0404a5;
+}
+
+    </style>
+</head>
+<body>
+    <container class="container">
+    <div class="box">
+        <header><h1> โน๊ตบุ๊คราคาถูก 2025 น่าใช้</h1></header>
+    </div>
+        <main>
+            <section class="box1"><img class="product img" src="proto/dowlond.webp" alt="Product Image" style="float:right; padding: 1px;;">
+              เวลาคิดถึงโน๊ตบุ๊คราคาถูก คนส่วนใหญ่คงคงคิดถึงเครื่องมือสองตามร้านขายคอมมือสอง แต่เราสามารถหาโน๊ตบุ๊คราคาถูก 2025 มือหนึ่งมาใช้ได้ในงบประมาณหมื่นบาทต้นไม่เกินสองหมื่นบาท บางทีถ้าได้โค้ดส่วนลดจากแพลตฟอร์มหรือซื้อในช่วงที่มีโปรโมชั่นเพิ่มเติมอาจได้ส่วนลดจนราคาถูกลงไปมากแล้วเอาส่วนต่างไปลงกับอุปกรณ์เสริมหรืออัปเกรดเพิ่มเติมก็ยังได้
+            </section>
+        </main>
+    <nav class="box2">
+        <ul>
+            <li class="home-button"><a href="top10.html" >TOP 7</a></li>
+            <li class="home-button1" ><a href="proj2.html">แนะนำ</a></li>
+        </ul>
+    </nav>
+</container>
+</body>
+</html> 
